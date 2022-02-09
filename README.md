@@ -9,7 +9,7 @@ pip freeze
 pip install django
 ```
 
-# Instalamos Django
+# Django Ayuda
 ```
 python3 vaxiproject/manage.py help
 ```
