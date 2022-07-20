@@ -16,7 +16,7 @@ python3 vaxiproject/manage.py help
 
 # Crear Proyecto
 ```
-django-admin startproject vaxiproject
+django-admin startproject demo
 python3 vaxiproject/manage.py runserver
 ```
 
