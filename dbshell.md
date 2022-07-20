@@ -8,3 +8,8 @@ manage.py dbshell
 ```
 \dt
 ```
+
+# Mostrar Usuarios
+```
+select * from auth_user
+```
