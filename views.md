@@ -1,3 +1,12 @@
+# Cómo protegemos una vista 
+````
+@login_required(login_url='login')
+def logout(request):
+    auth.logout(request)
+    messages.success(request, 'Has salido')
+    return redirect('login')
+    
+
 # Cómo listamos en la BD
 ````
 def cart(request, total=0, quantity=0, cart_items=None):
