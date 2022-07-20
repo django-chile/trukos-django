@@ -1,11 +1,26 @@
 # Cómo protegemos una vista 
 ````
+from django.contrib.auth.decorators import login_required
+
 @login_required(login_url='login')
 def logout(request):
     auth.logout(request)
     messages.success(request, 'Has salido')
     return redirect('login')
     
+````
+
+# Cómo protegemos una vista 
+````
+from django.contrib.auth.decorators import login_required
+
+@login_required(login_url='login')
+def logout(request):
+    auth.logout(request)
+    messages.success(request, 'Has salido')
+    return redirect('login')
+    
+````
 
 # Cómo listamos en la BD
 ````
