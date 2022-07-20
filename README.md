@@ -29,5 +29,5 @@ python manage.py runserver
 
 # Crear apps
 ```
-python3 vaxiproject/manage.py startapp usuarios
+python3 demo/manage.py startapp usuarios
 ```
