@@ -30,6 +30,8 @@ python manage.py runserver
 # Crear apps
 ```
 python3 demo/manage.py startapp usuarios
+django-admin startapp front app/front
+django-admin startapp chat app/chat
 ```
 
 # Comandos Varios
