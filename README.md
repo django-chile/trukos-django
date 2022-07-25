@@ -9,6 +9,19 @@ pip freeze
 pip install django
 ```
 
+# .env
+```
+Instalamos la libreria
+$ pip install python-decouple
+
+En el config
+from decouple import config
+SECRET_KEY = config("SECRET_KEY", default='')
+
+Creamos el .env
+SECRET_KEY=HELLO
+```
+
 # Django Ayuda
 ```
 python3 vaxiproject/manage.py help
