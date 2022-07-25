@@ -46,4 +46,5 @@ $ python3 manage.py runserver
 $ pip freeze > requirements.txt
 $ mkdir apps
 $ python manage.py collectstatic
+$ pip freeze > requirements.txt
 ```
